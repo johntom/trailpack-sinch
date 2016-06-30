@@ -35,11 +35,11 @@ Add configuration for sinch :
 // config/sinch.js
 module.exports = {
   /**
-   * The "account Key" associated with your Twilio account.
+   * The "account Key" associated with your Sinch account.
    */
   Key: null,
   /**
-   * The "account secret" associated with your Twilio account.
+   * The "account secret" associated with your Sinch account.
    */
   Secret: null,
   
