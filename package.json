@@ -1,0 +1,42 @@
+{
+  "name": "trailpack-sinch",
+  "version": "0.0.0",
+  "description": "trails sinch sms trailpack",
+  "homepage": "https://github.com/johntom/trailpack-sinch",
+  "author": {
+    "name": "John Tomaselli",
+    "email": "jrt@gtz.com",
+    "url": "www.gtz.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails",
+    "trailpack",
+    "sms",
+    "sinch",
+    "trailjs"
+  ],
+  "dependencies": {
+    "trailpack": "latest"
+  },
+  "devDependencies": {
+    "lodash": "^4.11.1",
+    "trails": "latest",
+    "eslint": "^2.4",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.9",
+    "trailpack-core": "^1.0.0-beta-6"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/johntom/trails-example-express.git",
+  "license": "Apache-2.0"
+}
