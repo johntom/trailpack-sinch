@@ -13,10 +13,9 @@ module.exports = _.defaultsDeep({
     services: { }
   },
   config: {
-    twilio: {
-      accountSid: 'ok',
-      authToken: 'ok',
-      from: 'ok'
+    sinch: {
+      Key: 'ok',
+      Secret: 'ok'
     },
     main: {
       packs: [
