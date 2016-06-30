@@ -68,7 +68,7 @@ this.app.services.SinchService.getStatus(jsonObj.messageId).then(function (resul
        })
 
 ```
-## This trailpack is based on trailpack-twilio
+## This trailpack is inspired by Jaumard's trailpack-twilio
 ## The use of this requires setting up a sinch sms account (https://www.sinch.com/)
 We love contributions! Please check out our [Contributor's Guide](https://github.com/trailsjs/trails/blob/master/.github/CONTRIBUTING.md) for more
 information on how our projects are organized and how to get started.
@@ -76,12 +76,12 @@ information on how our projects are organized and how to get started.
 ## License
 [MIT](https://github.com/johntom/trailpack-sinch/blob/master/LICENSE)
 
-// [npm-image]: https://img.shields.io/npm/v/trailpack-sinch.svg?style=flat-square
-// [npm-url]: https://npmjs.org/package/trailpack-sinch
-// [ci-image]: https://img.shields.io/travis/johntom/trailpack-twilio/master.svg?style=flat-square
-// [ci-url]: https://travis-ci.org/johntom/trailpack-sinch
-// [daviddm-image]: http://img.shields.io/david/jaumard/trailpack-twilio.svg?style=flat-square
-// [daviddm-url]: https://david-dm.org/johntom/trailpack-sinch
-// [codeclimate-image]: https://img.shields.io/codeclimate/github/jaumard/trailpack-twilio.svg?style=flat-square
-// [codeclimate-url]: https://codeclimate.com/github/jaumard/trailpack-twilio
+[npm-image]: https://img.shields.io/npm/v/trailpack-sinch.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/trailpack-sinch
+[ci-image]: https://img.shields.io/travis/johntom/trailpack-twilio/master.svg?style=flat-square
+[ci-url]: https://travis-ci.org/johntom/trailpack-sinch
+[daviddm-image]: http://img.shields.io/david/jaumard/trailpack-twilio.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/johntom/trailpack-sinch
+[codeclimate-image]: https://img.shields.io/codeclimate/github/jaumard/trailpack-twilio.svg?style=flat-square
+[codeclimate-url]: https://codeclimate.com/github/jaumard/trailpack-twilio
 
