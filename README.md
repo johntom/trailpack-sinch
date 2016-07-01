@@ -8,12 +8,12 @@
 Sinch Trailpack for sending SMS
 
 ## Install
-With yo : 
+With yo: 
 ```sh
 $ yo trails:trailpack trailpack-sinch
 ```
 
-With npm
+With npm:
 ```sh
 $ npm install --save trailpack-sinch
 ```
@@ -32,14 +32,14 @@ module.exports = {
 
 Add configuration for sinch : 
 ```js
-// config/twilio.js
+// config/sinch.js
 module.exports = {
   /**
-   * The "account Key" associated with your Twilio account.
+   * The "account Key" associated with your Sinch account.
    */
   Key: null,
   /**
-   * The "account secret" associated with your Twilio account.
+   * The "account secret" associated with your Sinch account.
    */
   Secret: null,
   
@@ -50,26 +50,31 @@ module.exports = {
 Use the `SinchService` like this (from controllers/policies/services) : 
 ```js
 //Send basic SMS
- this.app.services.SinchService.sendMessage('phoneNumber', 'message').then(function (results) {
-                this.app.log.debug('ok')
-       }).catch(err => {
-         this.app.log.error(err)
-       })
+this.app.services.SinchService.sendMessage('phoneNumber', 'message').then(function (results) {
+  this.app.log.debug('ok')
+})
+.catch(err => {
+  this.app.log.error(err)
+})
        
 //Send messageid set status
-//this.app.services.TwilioService.sendSMSTo('toNumber', 'message to send', {mediaUrl: 'http://myurl.fr'}).then(response => {
 this.app.services.SinchService.getStatus(jsonObj.messageId).then(function (results) {
-                  // jsonObjS = JSON.parse(results);
-                  // console.log('results getStatus ', jsonObjS.status);
-                this.app.log.debug('ok ',results)
+
+  this.app.log.debug('ok ',results)
          
-       }).catch(err => {
-         this.app.log.error(err)
-       })
+})
+.catch(err => {
+  this.app.log.error(err)
+})
 
 ```
-## This trailpack is inspired by Jaumard's trailpack-twilio
-## The use of this requires setting up a sinch sms account (https://www.sinch.com/)
+
+## Sinch Account 
+The use of this requires setting up a sinch sms account (https://www.sinch.com/)
+
+## Credits
+This trailpack is inspired by [Jaumard's trailpack-twilio](https://github.com/jaumard/trailpack-twilio)
+
 We love contributions! Please check out our [Contributor's Guide](https://github.com/trailsjs/trails/blob/master/.github/CONTRIBUTING.md) for more
 information on how our projects are organized and how to get started.
 

@@ -13,7 +13,7 @@ module.exports = {
    * The "account Key" associated with your sinch account.
    */
   Key: null,
-   
+
   /**
    * The "account secret" associated with your Sinch account.
    */
