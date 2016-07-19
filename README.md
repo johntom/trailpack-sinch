@@ -1,5 +1,5 @@
 # trailpack-sinch
-
+# version 0.0.1
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
