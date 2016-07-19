@@ -13,7 +13,12 @@
       "name": "scott-wyatt",
       "email": "scottwyatt86@gmail.com",
       "url": "https://cali-style.com"
-    }
+    },
+    {
+    "name": "Jimmy Aumard",
+    "email": "jimmy.aumard@gmail.com",
+    "url": "https://github.com/jaumard"
+  }
   ],
   "main": "index.js",
   "keywords": [
